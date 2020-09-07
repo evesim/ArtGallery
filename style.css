@@ -1,0 +1,46 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    max-width: 960px;
+    margin: auto;
+}
+
+.header-logo {
+    float: right;
+}
+
+nav {
+    width: 75%;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-weight: bold;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #1d9aac;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f2f2f2;
+}
