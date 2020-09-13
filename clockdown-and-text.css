@@ -60,13 +60,25 @@
 
 .presentation-title-img {
     display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .pragraph-about-us {
     display: flex;
+    font-size: 30px;
+    text-align: center;
 }
 
 .count-and-text {
     display: inline-flex;
     margin-bottom: 5%;
+    margin-top:2%
+}
+
+.line{
+    background-color: rgb(250, 200, 60);
+    height: 5px;
+    margin: 2% 20% 2%;
 }
