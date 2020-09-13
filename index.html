@@ -5,8 +5,8 @@
         <meta charset="UTF-8" />
         <title>Art gallery</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="clockdown.css">
-       
+        <link rel="stylesheet" href="clockdown-and-text.css">
+
     </head>
 
     <body class="wrapper-boxed">
@@ -28,22 +28,25 @@
                 </div>
             </header>
             <div class="line-under-header"
-                style="border-bottom: 1px solid; border-color:#339bbb; margin-top:145px; background-color:red; background:url(/images/logo1.png) no-repeat left bottom;">
+                style="border-bottom: 1px solid; border-color:#339bbb; margin-top:145px; background-color:red; background:url() no-repeat left bottom;">
             </div>
         </div>
         <br>
         <div class="slideshow-container">
 
             <div class="img-slideshow fade">
-                <img src="https://www.sketch.ca/sketchPub/uploads/2019/03/radical-art-of-young-people.jpg" id="slideshow-item">
+                <img src="https://www.sketch.ca/sketchPub/uploads/2019/03/radical-art-of-young-people.jpg"
+                    class="slideshow-item">
             </div>
 
             <div class="img-slideshow fade">
-                <img src="https://www.oxy.edu/sites/default/files/landing-page/banner-images/art-art-history_main_1440x800.jpg" id="slideshow-item">
+                <img src="https://www.oxy.edu/sites/default/files/landing-page/banner-images/art-art-history_main_1440x800.jpg"
+                    class="slideshow-item">
             </div>
 
             <div class="img-slideshow fade">
-                <img src="https://cdn.shopify.com/s/files/1/0012/3315/8209/files/IMG_20200120_100534_1440x640.jpg?v=1590017213" id="slideshow-item">
+                <img src="https://cdn.shopify.com/s/files/1/0012/3315/8209/files/IMG_20200120_100534_1440x640.jpg?v=1590017213"
+                    class="slideshow-item">
             </div>
 
         </div>
@@ -54,36 +57,45 @@
             <span class="dot"></span>
             <span class="dot"></span>
         </div>
+        <div class="count-and-text">
+            <div class="next-event">
+                <div id="clockdiv">
+                    <div>
+                        <span class="days"></span>
+                        <div class="smalltext">Days</div>
+                    </div>
+                    <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Hours</div>
+                    </div>
+                    <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Minutes</div>
+                    </div>
+                    <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Seconds</div>
+                    </div>
+                </div>
+                <div class="next-event-img">
+                    <img src="images/next-event-img.png" class="img-future-event">
+                </div>
+            </div>
+            <div class="presentation-about-us">
+                <div class="presentation-title-img">
+                    <img src="https://optionsgroup.advantagegroupgh.com/wp-content/uploads/2020/01/who-are-we.png"
+                        class="presentation-image">
+                </div>
+                <div class="pragraph-about-us">
+                    <p class="paragraph-presentation-about-us">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book</p>
+                </div>
+            </div>
 
-        <h2 class="title-countdown">'tll the next event</h2>
-        <div class="next-event">
-        <div id="clockdiv">
-            <div>
-              <span class="days"></span>
-              <div class="smalltext">Days</div>
-            </div>
-            <div>
-              <span class="hours"></span>
-              <div class="smalltext">Hours</div>
-            </div>
-            <div>
-              <span class="minutes"></span>
-              <div class="smalltext">Minutes</div>
-            </div>
-            <div>
-              <span class="seconds"></span>
-              <div class="smalltext">Seconds</div>
-            </div>
-          </div>
-          <div class="next-event-img">
-            <img src="https://venngage-wordpress.s3.amazonaws.com/uploads/2018/04/decorative-poster-music.png" class="img-future-event">
         </div>
-        
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
+
     </body>
 
     </html>

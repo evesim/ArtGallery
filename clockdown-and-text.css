@@ -1,0 +1,72 @@
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-flex;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    align-self: center;
+}
+
+.next-event-img {
+    display: flex;
+    align-self: center;
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    background: #1d9aac;
+    display: inline-block;
+}
+
+#clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: #6cd7e6;
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.img-future-event {
+    position: relative;
+    width: 63%;
+    height: 80%;
+    margin-top: 2%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.next-event {
+    margin-top: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 50%;
+}
+
+.presentation-about-us {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-right: 5%;
+    width: 50%;
+}
+
+.presentation-title-img {
+    display: flex;
+}
+
+.pragraph-about-us {
+    display: flex;
+}
+
+.count-and-text {
+    display: inline-flex;
+    margin-bottom: 5%;
+}
