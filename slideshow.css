@@ -129,11 +129,6 @@ button {
     font-size: 1.8rem;
     text-align: center;
 }
-.column h2 {
-    font-size: 18px;
-    text-align: center;
-
-}
 
 @media screen and (max-width: 600px) {
     div.column {
