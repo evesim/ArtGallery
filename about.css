@@ -1,3 +1,6 @@
+*{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
 .about-heading-wrapper{
     background-color: rgb(235, 199, 72);
     padding-left: 45px;
@@ -43,7 +46,22 @@
     margin: 0 0 10px;
 }
 
+.text-about-edit-container{
+    flex-flow: row wrap;
+    width: 83.33333%;
+    height: auto;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
 
+.text-about-edit-text>h2{
+    font-size: 45px;
+}
 
 @media only screen and (min-width: 801px){
 .about-heading-container {
@@ -78,4 +96,10 @@
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 0;
+}}
+@media only screen and (min-width: 801px){
+.text-about-edit-container {
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
 }}
