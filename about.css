@@ -1,16 +1,16 @@
-* {
-    /* font-family: "Comic Sans MS", cursive, sans-serif; */
-}
-
-.about-heading-wrapper {
+.about-heading-wrapper , .meet-the-team-title-section {
     background-color: rgb(235, 199, 72);
     padding-left: 45px;
     padding-right: 45px;
 }
 
-.about-heading-container {
+.meet-the-team-title-section{
+    background-color: lightgrey;
+}
+
+.about-heading-container , .meet-the-team-title-container{
     flex-flow: row wrap;
-    width: 83.33333%;
+    width: 100%;
     height: auto;
     max-width: 1080px;
     margin-left: auto;
@@ -21,7 +21,7 @@
     padding-top: 75px;
 }
 
-.about-heading-title {
+.about-heading-title , .meet-the-tea-title{
     color: #000;
     font-size: 45px;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -35,7 +35,7 @@
 
 .text-about-edit-text-title {
     font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
-    font-size: 27px;
+    font-size: 30px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
@@ -91,45 +91,50 @@
     display: flex;
 }
 
-.meet-the-team {
-    display: inline-flex;
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 150px;
-}
-
-.meet-the-team-title {
-    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-    font-size: 24px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    line-height: 26.4px;
-}
-
 .meet-the-team-image-section {
+    position: relative;
     display: inline-flex;
-    align-items: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 1.5%;
+    
 }
 
 .meet-the-team-image {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    border-radius: 50%;
-    background-color: black;
-    opacity: 0.5;
+    display: block;
+    height: auto;
+    border-radius: 50%
 }
 
-.meet-the-team-image-overlay-1 {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
+.meet-the-team-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
     border-radius: 50%;
+}
+
+.meet-the-team-image-section:hover .meet-the-team-overlay {
+    opacity: .5;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 @media only screen and (min-width: 801px) {
