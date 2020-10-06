@@ -1,14 +1,14 @@
-.about-heading-wrapper , .meet-the-team-title-section {
+.about-heading-wrapper, .meet-the-team-title-section {
     background-color: rgb(235, 199, 72);
     padding-left: 45px;
     padding-right: 45px;
 }
 
-.meet-the-team-title-section{
+.meet-the-team-title-section {
     background-color: lightgrey;
 }
 
-.about-heading-container , .meet-the-team-title-container{
+.about-heading-container, .meet-the-team-title-container {
     flex-flow: row wrap;
     width: 100%;
     height: auto;
@@ -21,7 +21,7 @@
     padding-top: 75px;
 }
 
-.about-heading-title , .meet-the-tea-title{
+.about-heading-title, .meet-the-tea-title {
     color: #000;
     font-size: 45px;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -86,6 +86,16 @@
     font-size: 45px;
 }
 
+.meet-the-team-image-wrapper {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* width:70%; */
+    align-items: center;
+    justify-content: center;
+}
+
 .meet-the-team-container {
     flex-flow: row wrap;
     display: flex;
@@ -98,13 +108,14 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.5%;
-    
+    padding: 40px;
 }
 
 .meet-the-team-image {
     display: block;
     height: auto;
-    border-radius: 50%
+    border-radius: 50%;
+    margin-top: 1.5%;
 }
 
 .meet-the-team-overlay {
@@ -119,10 +130,12 @@
     transition: .5s ease;
     background-color: black;
     border-radius: 50%;
+    margin-top: 1.5%;
+    padding: 40px;
 }
 
 .meet-the-team-image-section:hover .meet-the-team-overlay {
-    opacity: .5;
+    opacity: 1;
 }
 
 .text {
