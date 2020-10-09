@@ -109,6 +109,7 @@
     margin-right: auto;
     margin-top: 1.5%;
     padding: 40px;
+
 }
 
 .meet-the-team-image {
@@ -120,9 +121,9 @@
 
 .meet-the-team-overlay {
     position: absolute;
-    top: 0;
+    top: 40px;
     bottom: 0;
-    left: 0;
+    left: 38px;
     right: 0;
     height: 200px;
     width: 200px;
@@ -131,7 +132,6 @@
     background-color: black;
     border-radius: 50%;
     margin-top: 1.5%;
-    padding: 40px;
 }
 
 .meet-the-team-image-section:hover .meet-the-team-overlay {
@@ -148,6 +148,10 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    padding: 40px;
+    margin-top: 1.5%;
+
+
 }
 
 @media only screen and (min-width: 801px) {
