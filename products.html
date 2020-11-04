@@ -41,8 +41,8 @@
                     <span class="about-heading-title-text">
                         shop
                         <div class="line-under-header"
-                style="border-bottom: 1px solid; border-color:#1a2930; background-color:red; background:url() no-repeat left bottom;">
-            </div>
+                            style="border-bottom: 1px solid; border-color:#1a2930; background-color:red; background:url() no-repeat left bottom;">
+                        </div>
                     </span>
 
                     shopping is art. be an artist. #artaholic
@@ -54,19 +54,22 @@
             <div class="product-card-container">
                 <div class="product-card-wrapper">
                     <div class="product-img">
-                        <img src="https://2ho4f5klzmi1xz49c18txd0p-wpengine.netdna-ssl.com/wp-content/uploads/ART-at-Berlin-Courtesy-of-Contemporary-Fine-Arts-Werner-Buettner.jpg"
+                        <img id="product-img"
+                            src="https://2ho4f5klzmi1xz49c18txd0p-wpengine.netdna-ssl.com/wp-content/uploads/ART-at-Berlin-Courtesy-of-Contemporary-Fine-Arts-Werner-Buettner.jpg"
                             height="420" width="327">
                     </div>
-                    <div class="product-info">
-                        <div class="product-text">
-                            <h1>Lorem Ipsum</h1>
-                            <h2>Lorem Ipsum</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    <div class="product-info" id="product-info">
+                        <div class="product-text" id="product-text">
+                            <!-- work on it in js -->
+                            <h1 id="product-text-h1">Lorem Ipsum</h1>
+                            <h2 id="product-text-h2">Lorem Ipsum</h2>
+                            <p id="product-text-p">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum
                                 has
                                 been the industry's standard dummy text ever since the 1500s </p>
                         </div>
-                        <div class="product-price-btn">
-                            <p><span>78</span>$</p>
+                        <div class="product-price-btn" id="product-price-btn">
+                            <p id="product-price-p"><span>78</span>$</p>
                             <button type="button">buy now</button>
                         </div>
                     </div>
@@ -180,8 +183,9 @@
 
     </body>
 
+    <script type="text/javascript" src="products.js"></script>
+    <script type="text/javascript" src="products.json"></script>
 
-    </body>
 
     </html>
 
