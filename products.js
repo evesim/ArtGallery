@@ -19,10 +19,16 @@ function createProducts(productsArray) {
         let productText = document.createElement("div");
         productText.className = "product-text";
         // work on this
-        // let productTextH1 = document.createElement("h1");
-        // let productTextH2 = document.createElement("h1");
-        // let productTextP = document.createElement("h1")
+        let productTextH1 = document.createElement("h1");
+        let productTextH2 = document.createElement("h2");
+        let productTextP = document.createElement("p");
+        productTextH1.className = "product-text-h1";
+        productTextH2.className = "product-text-h2";
+        productTextP.className = "product-text-p";
 
+        productText.appendChild(productTextP);
+        productText.appendChild(productTextH2);
+        productText.appendChild(productTextH1);
         productImgDiv.appendChild(productImg);
         productInfo.appendChild(productText);
         productCardWrapper.appendChild(productInfo);
